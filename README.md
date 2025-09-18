@@ -1,6 +1,6 @@
-<img style="float: right;" src="Technologist.png" width="100px" alt="Animated programmer at a laptop">
-
 ## Greetings! <img src="Grinning%20Face.png" width="25px" alt="Animated widely smiling face emoji">
+
+<img align="right" style="float: right;" src="Technologist.png" width="100px" alt="Animated programmer at a laptop">
 
 **I am currently a Graduate Engineer at [Riverlane](https://www.riverlane.com/), working on Quantum Error Correction (QEC).**
 
@@ -16,23 +16,15 @@ class Person:
         self.personal_website = "https://51.pegasib.dev"
         self.email = "wave@pegasib.dev"
         self.current_tech = {
-            "Mobile OS": "Android 12",
             "Desktop OS": "Windows 11 24H2/macOS 15 Sequoia",
             "IDE Family": "JetBrains",
+            "Mobile OS": "Android 12",
         }
 
-        self.role = "Graduate Engineer"
         self.qualifications = ["BSc Natural Sciences (Computer Science & Mathematics)"]
         self.experience = [
             "Machine Learning/AI", "Python", "Full-stack Web Development", "TypeScript"
         ]
-        self.personal_skills = {
-            "Project Management", "Team Communication", "Self Learning"
-        }
-        self.interests = {
-            "Language Learning", "Video Games", "K-pop", "Cats",
-            "Tech", "Film & TV", "Walking", "Piano Music"
-        }
 
     def say_hello(self):
         print(f"Welcome to {self.name}'{'' if self.name.endswith('s') else 's'} GitHub profile!")
