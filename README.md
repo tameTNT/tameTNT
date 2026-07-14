@@ -23,7 +23,8 @@ class Person:
 
         self.qualifications = ["BSc Natural Sciences (Computer Science & Mathematics)"]
         self.experience = [
-            "Machine Learning/AI", "Python", "Full-stack Web Development", "TypeScript"
+            "Quantum Computing", "Quantum Error Correction", "Machine Learning/AI",
+            "Python", "Full-stack Web Development", "TypeScript"
         ]
 
     def say_hello(self):
